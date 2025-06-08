@@ -6,7 +6,7 @@ import PageThree from './PageThree';
 import './index.css'
 
 //Get Init Data from Server
-const ServerLink = "https://68425d6de1347494c31c8fb6.mockapi.io/api/v1/recipies"
+const ServerLink = "https://6844f814fc51878754da371d.mockapi.io/api/v1/Recipes"
 const response = await fetch(ServerLink);
 let Data = await response.json(); 
 

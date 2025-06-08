@@ -31,7 +31,7 @@ function App({List, SetList}: Props) {
         function CallDelete() {
           const newList = List.filter((DataB:any) => DataB.id !== Data.id);
           SetList( newList); 
-          fetch(`https://68425d6de1347494c31c8fb6.mockapi.io/api/v1/recipies/${Data.id}`, {
+          fetch(`https://6844f814fc51878754da371d.mockapi.io/api/v1/Recipes/${Data.id}`, {
             method: 'DELETE'
         })
         }
